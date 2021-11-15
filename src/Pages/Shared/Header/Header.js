@@ -22,6 +22,7 @@ const Header = () => {
                         <Navbar.Text>
                             Signed in as: <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
+                        <Nav.Link as={HashLink} to="/addService">Add Service</Nav.Link>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
